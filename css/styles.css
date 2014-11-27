@@ -1,8 +1,6 @@
 html, body {
-  font-size: 100%;
   background-color: #f7f7f7;
   background:url('../images/body_bg.png') 0 0% repeat;
-  /*font-family: 'Roboto', sans-serif;*/
 }
 
 .navbar {
