@@ -56,6 +56,17 @@
       </div><!-- /.container-fluid -->
     </nav>
     
+    <!-- Content -->
+    <div class="container content">
+      <div id=loading-notice>
+        <noscript>
+          <div class="alert alert-danger" style="text-align: center;">
+            <strong>Please Enable JavaScript,</strong> its not gonna hurt you!
+          </div>
+        </noscript>
+      </div>
+    </div>
+    
     <!-- Donate Modal -->
     <div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledby="reportLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
