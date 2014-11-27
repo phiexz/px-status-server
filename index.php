@@ -57,7 +57,7 @@
     </nav>
     
     <!-- Content -->
-    <div class="container content">
+    <div class="container content transparent">
       <div id=loading-notice>
         <noscript>
           <div class="alert alert-danger" style="text-align: center;">
