@@ -1,6 +1,7 @@
 body {
   background-color: #f7f7f7;
-  background:url('../images/body_bg.png') 0 0% repeat;
+  background-image: url(../images/body_bg.png);
+  background-repeat: repeat;
   padding-top: 70px;
   padding-bottom: 30px;
 }
@@ -44,4 +45,16 @@ body {
   -moz-box-shadow:0 1px 10px rgba(0,0,0,.1);
   box-shadow:0 1px 10px rgba(0,0,0,.1);
   margin-bottom:20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  @media only screen and (min-height: 480px) {
+    body{
+      background-image: url(../images/body_bg2.gif),url(../images/body_bg.png);
+      background-attachment: fixed;
+      background-position: right bottom,left top;
+      background-repeat: no-repeat,repeat;
+    }
+  }
 }
