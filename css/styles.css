@@ -10,7 +10,7 @@ html, body {
 }
 
 .navbar-fixed-top {
-  border-bottom:2px solid #eaeaea;
+  border-bottom:3px ridge #ffffff;
 }
 
 .navbar-default .navbar-brand {
