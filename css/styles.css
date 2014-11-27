@@ -1,0 +1,36 @@
+html, body {
+  font-size: 100%;
+  background-color: #f7f7f7;
+  background:url('../images/body_bg.png') 0 0% repeat;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+.navbar {
+  background:url('../images/head_bg.jpg') 0 0% repeat;
+}
+
+.navbar-fixed-top {
+  border-bottom:2px solid #eaeaea;
+}
+
+.navbar-default .navbar-brand {
+  color: #e6e6e6;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.disabled>a,
+.navbar-default .navbar-nav>.disabled>a:hover,
+.navbar-default .navbar-nav>.disabled>a:focus{
+  color:#666;background-color:transparent
+}
+
+.navbar-default .navbar-nav>li>a{
+  color:#e6e6e6
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+  color:#fff;background-color:transparent
+}
